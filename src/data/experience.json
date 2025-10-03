@@ -1,0 +1,60 @@
+{
+  "experiences": [
+    {
+      "company": "Wayfair",
+      "position": "Software Engineer",
+      "location": "Boston, MA (Remote)",
+      "period": "Nov 2024 - Present",
+      "description": "Building cutting-edge features for e-commerce platform serving millions of users",
+      "achievements": [
+        "Architected GenAI-powered API onboarding platform reducing integration time by 80%",
+        "Developed microservices using Kotlin, GraphQL, and Kafka",
+        "Implemented Kubernetes orchestration for high availability",
+        "Integrated Datadog for comprehensive monitoring and observability"
+      ],
+      "technologies": ["Kotlin", "GraphQL", "Kubernetes", "Kafka", "Datadog", "React"]
+    },
+    {
+      "company": "Newgen Software",
+      "position": "Team Leader",
+      "location": "India (Remote)",
+      "period": "Jun 2023 - Dec 2023",
+      "description": "Led development team for enterprise loan origination system across 5 African nations",
+      "achievements": [
+        "Managed team of 12 developers delivering on-time across multiple countries",
+        "Reduced post-launch issues by 25% through rigorous requirement analysis",
+        "Improved team productivity by 20% with Agile methodologies",
+        "Decreased issue resolution time by 30% as technical liaison"
+      ],
+      "technologies": ["Java", "Spring MVC", "REST APIs", "Microservices", "JIRA"]
+    },
+    {
+      "company": "Wipro",
+      "position": "Senior Software Engineer",
+      "location": "India",
+      "period": "Aug 2021 - Jun 2023",
+      "description": "Led AWS cloud migration for Land Transport Authority Singapore",
+      "achievements": [
+        "Achieved 50% faster deployment cycles through DevOps automation",
+        "Reduced deployment errors by 35% with CI/CD pipelines",
+        "Implemented Docker containerization improving consistency by 25%",
+        "Developed robust REST APIs reducing data processing errors by 20%"
+      ],
+      "technologies": ["AWS", "Docker", "GitHub Actions", "Spring Boot", "Terraform"]
+    },
+    {
+      "company": "Nucleus Software",
+      "position": "Software Engineer",
+      "location": "India",
+      "period": "Nov 2019 - Aug 2021",
+      "description": "Developed Finnone loan management system processing 26M daily transactions",
+      "achievements": [
+        "Supported 100+ banks and NBFCs with enterprise-grade system",
+        "Reduced build times by 30% through Maven optimization",
+        "Decreased downtime by 15% with comprehensive error handling",
+        "Integrated CIBIL and Experian APIs for automated credit checks"
+      ],
+      "technologies": ["Java", "Spring", "Hibernate", "Oracle", "Spring Boot"]
+    }
+  ]
+}

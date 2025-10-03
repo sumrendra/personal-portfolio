@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": "genai-api-platform",
+      "title": "GenAI API Onboarding Platform",
+      "description": "Self-service platform using Model Context Protocol (MCP) and GenAI to streamline external API integration, reducing onboarding time from 1 week to 1-2 days.",
+      "image": "/images/projects/genai-platform.jpg",
+      "technologies": ["React", "TypeScript", "Kotlin", "GraphQL", "Kubernetes", "GenAI"],
+      "highlights": [
+        "80% reduction in API onboarding time",
+        "Full-stack solution with React frontend and Kotlin backend",
+        "Intelligent API documentation parsing with GenAI",
+        "Automated deployment orchestration"
+      ],
+      "category": "Full-Stack",
+      "featured": true
+    },
+    {
+      "id": "supplier-dashboard",
+      "title": "Supplier Dashboard Microservices",
+      "description": "Large-scale supplier management platform built on microservices architecture with GraphQL APIs for efficient data querying across multiple services.",
+      "image": "/images/projects/supplier-dashboard.jpg",
+      "technologies": ["GraphQL", "Kotlin", "Kafka", "Kubernetes", "Datadog"],
+      "highlights": [
+        "Microservices-based architecture",
+        "Optimized GraphQL schemas for performance",
+        "Event-driven patterns with Kafka",
+        "Comprehensive monitoring with Datadog"
+      ],
+      "category": "Backend",
+      "featured": true
+    },
+    {
+      "id": "lta-aws-migration",
+      "title": "LTA Singapore AWS Cloud Migration",
+      "description": "Led migration of Spring MVC and Hibernate application to AWS cloud for Singapore's Land Transport Authority, implementing DevOps best practices.",
+      "image": "/images/projects/aws-migration.jpg",
+      "technologies": ["AWS", "Docker", "Spring Boot", "GitHub Actions", "Terraform"],
+      "highlights": [
+        "50% faster deployment cycles",
+        "Zero-downtime migration approach",
+        "Infrastructure as Code with Terraform",
+        "35% reduction in deployment errors"
+      ],
+      "category": "Cloud",
+      "featured": true
+    },
+    {
+      "id": "equity-bank-los",
+      "title": "Equity Bank Loan Origination System",
+      "description": "Enterprise LOS deployed across 5 African nations, managing team of 12 developers with on-time delivery across all countries.",
+      "image": "/images/projects/equity-bank.jpg",
+      "technologies": ["Java", "Spring MVC", "REST APIs", "Microservices"],
+      "highlights": [
+        "Multi-country deployment (5 nations)",
+        "Led team of 12 developers",
+        "25% reduction in post-launch issues",
+        "30% faster issue resolution"
+      ],
+      "category": "Enterprise",
+      "featured": false
+    }
+  ]
+}
