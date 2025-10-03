@@ -7,6 +7,9 @@ import { Footer } from "@/components/layout/Footer";
 import { Toaster } from "react-hot-toast";
 import ScrollProgress from "@/components/common/ScrollProgress";
 import CustomCursor from "@/components/common/CustomCursor";
+import { createMetadata } from "@/lib/metadata";
+import { PersonSchema, WebSiteSchema } from "@/components/seo/StructuredData";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -20,48 +23,9 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "Sumrendra Singh | Full-Stack Software Engineer",
-  description:
-    "Full-Stack Software Engineer with 7+ years of experience in building scalable web applications. Expert in React, Next.js, Node.js, and cloud technologies.",
-  keywords: [
-    "Sumrendra Singh",
-    "Software Engineer",
-    "Full-Stack Developer",
-    "React",
-    "Next.js",
-    "TypeScript",
-    "Portfolio",
-  ],
-  authors: [{ name: "Sumrendra Singh" }],
-  creator: "Sumrendra Singh",
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://sumrendrasingh.com",
-    title: "Sumrendra Singh | Full-Stack Software Engineer",
-    description:
-      "Full-Stack Software Engineer with 7+ years of experience in building scalable web applications.",
-    siteName: "Sumrendra Singh Portfolio",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Sumrendra Singh | Full-Stack Software Engineer",
-    description:
-      "Full-Stack Software Engineer with 7+ years of experience in building scalable web applications.",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-};
+export const metadata: Metadata = createMetadata({
+  path: '/',
+});
 
 export default function RootLayout({
   children,
@@ -70,6 +34,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <PersonSchema />
+        <WebSiteSchema />
+      </head>
       <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased`}>
         <ThemeProvider
           attribute="class"
@@ -107,6 +75,7 @@ export default function RootLayout({
             <main className="flex-1 pt-16">{children}</main>
             <Footer />
           </div>
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
