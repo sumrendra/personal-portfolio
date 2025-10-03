@@ -59,14 +59,14 @@ export default function AboutPage() {
           <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
             <p>
               Hi! I'm <span className="font-semibold text-foreground">Sumrendra Singh</span>, 
-              a passionate Full-Stack Software Engineer with over 7 years of experience building 
+              a passionate Full-Stack Software Engineer with 8 years of experience building 
               scalable web applications that make a difference.
             </p>
             <p>
               My journey in tech started with a Bachelor's degree in Computer Science from 
               <span className="font-semibold text-foreground"> SRM University</span>, and since 
               then, I've had the privilege of working with some amazing companies including 
-              <span className="font-semibold text-foreground"> Wayfair, Wipro, and Nucleus Software</span>.
+              <span className="font-semibold text-foreground"> Wayfair, Newgen Software, Wipro, Nucleus Software, and A S Software Services</span>.
             </p>
             <p>
               Currently at <span className="font-semibold text-foreground">Wayfair</span>, I'm 
@@ -157,11 +157,11 @@ export default function AboutPage() {
           <h2 className="mb-6 text-3xl font-bold">By The Numbers</h2>
           <div className="grid gap-6 sm:grid-cols-3">
             <div className="text-center">
-              <div className="mb-2 text-4xl font-bold text-primary">7+</div>
+              <div className="mb-2 text-4xl font-bold text-primary">8+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="mb-2 text-4xl font-bold text-primary">4</div>
+              <div className="mb-2 text-4xl font-bold text-primary">5</div>
               <div className="text-sm text-muted-foreground">Companies</div>
             </div>
             <div className="text-center">

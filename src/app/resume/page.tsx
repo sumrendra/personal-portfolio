@@ -83,7 +83,7 @@ export default function ResumePage() {
         >
           <h2 className="mb-4 text-2xl font-bold">Professional Summary</h2>
           <p className="text-muted-foreground leading-relaxed">
-            Full-Stack Software Engineer with 7+ years of experience building enterprise-scale 
+            Full-Stack Software Engineer with 8 years of experience building enterprise-scale 
             applications. Expert in Java, Spring Boot, React, Next.js, and cloud technologies. 
             Proven track record of leading teams, migrating legacy systems to AWS, and delivering 
             high-impact solutions. Currently at Wayfair, working with GenAI, GraphQL, Kubernetes, 

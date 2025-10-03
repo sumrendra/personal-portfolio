@@ -4,7 +4,7 @@ const siteConfig = {
   name: 'Sumrendra Singh',
   title: 'Sumrendra Singh | Full-Stack Software Engineer',
   description:
-    'Full-Stack Software Engineer with 7+ years of experience in building scalable web applications. Expert in React, Next.js, Node.js, Kubernetes, and cloud technologies.',
+    'Full-Stack Software Engineer with 8 years of experience in building scalable web applications. Expert in React, Next.js, Node.js, Kubernetes, and cloud technologies.',
   url: 'https://sumrendrasingh.com',
   ogImage: 'https://sumrendrasingh.com/og-image.jpg',
   keywords: [
