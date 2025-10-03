@@ -5,6 +5,8 @@ import { ThemeProvider } from "@/components/common/ThemeProvider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Toaster } from "react-hot-toast";
+import ScrollProgress from "@/components/common/ScrollProgress";
+import CustomCursor from "@/components/common/CustomCursor";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -75,6 +77,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <ScrollProgress />
+          <CustomCursor />
           <Toaster
             position="top-right"
             toastOptions={{
