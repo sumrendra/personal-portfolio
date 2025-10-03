@@ -6,7 +6,6 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Toaster } from "react-hot-toast";
 import ScrollProgress from "@/components/common/ScrollProgress";
-import CustomCursor from "@/components/common/CustomCursor";
 import { createMetadata } from "@/lib/metadata";
 import { PersonSchema, WebSiteSchema } from "@/components/seo/StructuredData";
 import { Analytics } from "@vercel/analytics/react";
@@ -46,7 +45,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <ScrollProgress />
-          <CustomCursor />
           <Toaster
             position="top-right"
             toastOptions={{

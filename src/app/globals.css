@@ -98,13 +98,3 @@ html {
 ::selection {
   @apply bg-primary/20;
 }
-
-/* Hide default cursor on desktop when custom cursor is active */
-@media (min-width: 768px) {
-  body {
-    cursor: none;
-  }
-  a, button, [role="button"], .cursor-pointer {
-    cursor: none;
-  }
-}
