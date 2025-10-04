@@ -46,7 +46,7 @@ This guide explains how to deploy your Next.js portfolio on your local server us
    - Wait for the build to complete (may take 5-10 minutes)
 
 6. **Access Your Portfolio**
-   - Open browser: `http://your-server-ip:3000`
+   - Open browser: `http://your-server-ip:3007`
 
 ### Option 2: Deploy Using Docker Command Line
 
@@ -96,7 +96,9 @@ This guide explains how to deploy your Next.js portfolio on your local server us
 
 ### Port Mapping
 
-Default port mapping: `3000:3000`
+Default port mapping: `3007:3000` (external:internal)
+
+The application runs on port 3000 inside the container, but is exposed on port 3007 on your server.
 
 To change the external port, edit `docker-compose.yml`:
 ```yaml
@@ -231,12 +233,12 @@ Common issues:
 
 3. Increase Docker build memory in Docker settings
 
-### Cannot Access on Port 3000
+### Cannot Access on Port 3007
 
 1. Check firewall rules:
    ```bash
    sudo ufw status
-   sudo ufw allow 3000/tcp
+   sudo ufw allow 3007/tcp
    ```
 
 2. Check container is running:
